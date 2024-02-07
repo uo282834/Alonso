@@ -11,3 +11,272 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.layout{
+ width: 85%;
+  margin: 0 auto;
+  
+}
+
+.headComp{
+  display: flex;
+  border-bottom: 3px solid black;
+  margin-bottom: 26px;
+}
+
+.headComp li{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.headComp .logo, .headComp nav{
+  flex: 1 1 auto;
+  align-items: center;
+}
+
+.headComp nav ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  text-decoration: none;
+}
+
+.headComp nav ul a{
+  list-style: none;
+  text-decoration: none;
+}
+
+.headComp a:hover{
+  color :orange
+}
+
+.headComp .logo span{
+  display: block;
+  font-size: 80px;
+  font-weight: bolder;
+  margin-top: -20px;
+}
+
+.headComp .logo{
+  display: flex;
+}
+
+.headComp .logo h3{
+  display: block;
+  flex-basis: 40px;
+  margin-left: 3px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.footer{
+  min-height: 150px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 35px;
+  padding-top: 45px;
+  border-top: 3px solid black;
+  background: #f5f5f5;
+}
+
+.content{
+  min-height: 25em;
+}
+
+.active{
+  color: orange;
+}
+
+.curriculum {
+  font-family: Arial, sans-serif;
+  color: #333; /* Color del texto */
+}
+
+.curriculum h2 {
+  color: #333; /* Color de los subtítulos */
+}
+
+.curriculum ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.curriculum ul li {
+  margin-bottom: 10px;
+}
+
+.curriculum ul li::before {
+  content: "•";
+  color: #666; /* Color de los puntos de la lista */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.title {
+  font-size: 32px; /* Tamaño del título */
+  color: #000; /* Color del título */
+  text-align: center; /* Centrar el título horizontalmente */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+.contactMe{
+  display: grid;
+  justify-content: center;
+}
+
+.contactMe input, textarea{
+  margin-left: 0.4em;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  font-weight: bold;
+  color: #333;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="email"],
+.formGroup input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #555;
+}
+
+.formGroup textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.home h1{
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-weight: 400;
+  font-size: 45px;
+}
+.home strong{
+  color: orange;
+}
+
+.home h2{
+  color: gray;
+  font-weight: lighter;
+}
+.home .link{
+  color: black;
+  margin-left: 0.4em;
+  background-color: orange;
+  border: solid;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.project-card .website-link {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.project-card .website-link:hover {
+  background-color: green;
+}
+
+.home a:hover{
+  background-color: green;
+  color: white;
+  transition: 300ms;
+}
+.link-text {
+  font-size: 0.9em; /* Ajusta el tamaño de la fuente según tu preferencia */
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #f0f0f0; /* Tono de fondo gris suave */
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc; /* Borde gris */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+  color: orange;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px; /* Añade un poco de espacio debajo del título */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+}
+
+
+.project-card ul {
+  margin-top: 0;
+}
+
+.project-card ul li {
+  list-style: none;
+  overflow: hidden;
+}
+
+.contactLogo{
+  display: flex;
+  justify-content: center;
+}
+
+.contactLogo .icon{
+  width: 10em; /* Ajusta el tamaño según tus necesidades */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin: 1.5em;
+}
+
+.email{
+  display: grid;
+  font-weight: lighter;
+  text-align: center;
+}
+.git{
+  display: grid;
+  font-weight: lighter;
+  text-align: center;
+}
+.linkedin{
+  display: grid;
+  font-weight: lighter;
+  text-align: center;
+}
+
