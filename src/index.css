@@ -280,3 +280,10 @@ code {
   text-align: center;
 }
 
+ion-icon{
+  font-weight: lighter;
+  text-align: center;
+  font-size: 120px;
+  color: black;
+}
+

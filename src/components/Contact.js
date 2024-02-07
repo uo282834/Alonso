@@ -32,19 +32,19 @@ export const Contact = () => {
     <div className='contactLogo'>
       <div className ="email">
       <a href={`mailto:${correo}`}>
-        <img className ="icon" src='/images/email.png' alt='Correo electrónico' />
+        <ion-icon name="mail"></ion-icon>
       </a>
       <span>alonsoantgomez@gmail.com</span>
       </div>
       <div className ="git">
-      <a href='https://github.com/uo282834'>
-        <img className ="icon" src='/images/github.png' alt='Perfil de GitHub' />
+      <a href='https://github.com/uo282834'>  
+        <ion-icon className ="github" name="logo-github"></ion-icon>
       </a>
       <span>@uo282834</span>
       </div>
       <div className ="linkedin">
       <a href='https://www.linkedin.com/in/alonsoantu%C3%B1agomez/'>
-        <img className ="icon" src='/images/linkedin.png' alt='Número de teléfono' />
+        <ion-icon name="logo-linkedin"></ion-icon>
       </a>
       <span>alonsoantuñagomez</span>
       </div>

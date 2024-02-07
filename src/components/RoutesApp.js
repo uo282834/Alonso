@@ -14,7 +14,7 @@ export const RoutesApp = () => {
 
           <section className='content'>
             <Routes>
-                <Route path="/" element={<Welcome/>} />
+                <Route path="/Alonso" element={<Welcome/>} />
                 <Route path="/curriculum" element={<Curriculum/>} />
                 <Route path="/projects" element={<Projects/>} />
                 <Route path="/contact" element={<Contact/>} />
