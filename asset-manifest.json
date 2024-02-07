@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Alonso/static/css/main.a051e3be.css",
+    "main.js": "/Alonso/static/js/main.3073b50d.js",
+    "index.html": "/Alonso/index.html",
+    "main.a051e3be.css.map": "/Alonso/static/css/main.a051e3be.css.map",
+    "main.3073b50d.js.map": "/Alonso/static/js/main.3073b50d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a051e3be.css",
+    "static/js/main.3073b50d.js"
+  ]
+}
